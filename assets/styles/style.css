@@ -346,3 +346,40 @@ nav a:hover {
     border-radius: 10px;
     border: 0;
 }
+
+.socials {
+    text-align: center;
+    padding: 40px 0;
+}
+
+
+.socials h2 {
+    margin-bottom: 8px;
+}
+
+.socials p {
+    margin-bottom: 16px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons img {
+    width: 40px;
+    transition: 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #eee;
+    margin-top: 40px;
+    font-size: 13px;
+}
