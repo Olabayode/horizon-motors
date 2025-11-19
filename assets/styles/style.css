@@ -214,10 +214,19 @@ nav a:hover {
 }
 
 .discover-card .model-info a {
-    font-size: 13px;
-    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
     color: #2D3142;
+    text-decoration: none;
+    transition: color 0.3s ease, text-decoration-color 0.3s ease;
 }
+
+.discover-card .model-info a:hover {
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color: #000;
+}
+
 
 .discover-card .model-info a:hover {
     text-decoration: underline;
