@@ -30,3 +30,17 @@ header{
   opacity: 0.8;
   z-index: 1;
 }
+
+.hero-details {
+ position: relative;
+  background: url('../media/details-hero.png') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+  padding: 10px 60px;
+  margin-top: -80px;
+  opacity: 0.8;
+  z-index: 1; 
+}
