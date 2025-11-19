@@ -89,3 +89,21 @@ nav a:hover {
 .btn:hover {
     background-color: #1f2331;
 }
+.hero-details {
+    background: url('../media/details-hero.png') center/cover no-repeat;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.hero-details::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.hero-details .hero-content {
+    position: relative;
+    color: #fff;
+}
