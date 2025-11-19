@@ -107,3 +107,16 @@ nav a:hover {
     position: relative;
     color: #fff;
 }
+.about {
+    padding: 60px 0;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-details p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
