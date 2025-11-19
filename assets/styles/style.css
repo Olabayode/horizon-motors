@@ -20,3 +20,14 @@ header {
     z-index: 100;
     border-bottom: 1px solid #e4e4e4;
 }
+header.container {
+    max-width: 100%;
+    width: 100%;
+    margin-inline: 0;
+    padding: 15px 40px;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
