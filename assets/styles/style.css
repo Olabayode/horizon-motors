@@ -243,3 +243,9 @@ nav a:hover {
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
+.offer-card {
+    padding: 25px;
+    background: #f6f6f6;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
