@@ -383,3 +383,61 @@ footer {
     margin-top: 40px;
     font-size: 13px;
 }
+
+@media (max-width: 900px) {
+
+    header.container {
+        padding: 10px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .hero {
+        height: 80vh;
+    }
+
+    .discover-grid,
+    .services-grid,
+    .offers-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .reviews-list {
+        flex-direction: column;
+    }
+
+    .contact-box {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        max-width: 100%;
+    }
+
+    .map iframe {
+        height: 260px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .discover-grid,
+    .services-grid,
+    .offers-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        height: 70vh;
+    }
+
+    .hero-content h2 {
+        font-size: 22px;
+    }
+}
