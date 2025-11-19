@@ -52,3 +52,17 @@ nav a {
 nav a:hover {
     color: #2D3142;
 }
+.hero {
+    position: relative;
+    background: url('/assets/media/hero.png') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+}
