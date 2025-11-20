@@ -735,15 +735,21 @@ footer {
     background: rgba(0,0,0,0.40);
 }
 
+.services {
+  padding: 20px 0;
+  margin-bottom: 40px;
+}
+
 .services h2 {
   font-size: 30px;
-  padding: 50px 0;
   font-weight: 600;
-  background-color: #EAE8FF;
-  width: 100%;
 }
 
 .sales {
+  text-align: center;
   padding: 20px 0;
-  background-color: #2D3142;
+}
+
+.sales h3 {
+  font-size: 20px;
 }
