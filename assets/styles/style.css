@@ -758,6 +758,7 @@ footer {
 
 .sales h3 {
   font-size: 20px;
+  font-weight: 600;
 }
 
 .rentals.container {
@@ -769,6 +770,11 @@ footer {
   margin-top: 40px;
 }
 
+.rentals h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
 .wraps-repairs {
   text-align: center;
   padding: 30px 20px;
@@ -776,6 +782,11 @@ footer {
   border-radius: 20px;
   box-shadow: 2px 2px 2px #3d3d3d;
   margin-top: 40px;
+}
+
+.wraps-repairs h3 {
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .delivery.container {
@@ -787,6 +798,11 @@ footer {
   margin-top: 40px;
 }
 
+.delivery h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
 .financing-leasing.container {
   text-align: center;
   padding: 30px 20px;
@@ -796,6 +812,11 @@ footer {
   margin-top: 40px;
 }
 
+.financing-leasing h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
 .detailing.container {
   text-align: center;
   padding: 30px 20px;
@@ -803,4 +824,13 @@ footer {
   box-shadow: 2px 2px 2px #3d3d3d;
   background-color: #EAE8FF;
   margin-top: 40px;
+}
+
+.detailing h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.achievements.container {
+  margin-top: 80px;
 }
