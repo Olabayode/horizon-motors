@@ -839,15 +839,15 @@ footer {
   padding-top: 20px;
 }
 
-.achievements.container {
+.achievements {
   margin-top: 80px;
-  align-items: center;
-}
-
-.achievements h2 {
   text-align: center;
 }
 
 .achievements ul {
   list-style: none;
+}
+
+.achievements ul li {
+  margin-top: 5px;
 }
