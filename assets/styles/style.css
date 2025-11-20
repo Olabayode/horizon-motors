@@ -841,7 +841,8 @@ footer {
 }
 
 .industry-updates.container {
-  margin-top: 40px;
+  margin-top: 100px;
+  text-align: center;
 }
 
 .industry-updates ul {
@@ -855,6 +856,7 @@ footer {
 .achievements {
   margin-top: 80px;
   text-align: center;
+  margin-bottom: 80px;
 }
 
 .achievements ul {
