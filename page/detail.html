@@ -6,12 +6,175 @@
         <meta name="author" content="Olure Emmanuel, Daljit Kaur, Carlos Bumanglag , WeiYu Yin">
         <meta name="description" content="Horizon Motors">
         <meta name="keywords" content="html, css, web, web development, javascript">
-        <link rel="icon" href="/assets/media/favicon.png" type="image/x-icon">
-        <link rel="stylesheet" href="/assets/styles/style.css">
-        <script src="/assets/script/app.js" defer></script>
+        <link rel="icon" href="../assets/media/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="../assets/styles/style.css">
+        <script src="../assets/script/app.js" defer></script>
         <title>Horizon Motors</title>
     </head>
+
     <body>
-        
+      <header class="container">
+        <h1><a href="/index.html">HORIZON MOTORS</a></h1>
+
+        <nav>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#discover">Discover</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#offers">Offers</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li class="open">Login</li>
+          </ul>
+
+          <dialog class="modal" id="modal">
+            <h2>Sign in</h2>
+
+            <form class="form" method="dialog">
+              <label>
+                  <input type="text" placeholder="Email"></label>
+              <label>
+
+              <input type="text" placeholder="Password"></label>
+
+              <button class="button-dialog" type="submit">Login</button>
+
+              <p class="new-account">New to Horizon? <a href="#">
+                <span class="new-link">Create Account</span></a>
+              </p>
+            </form>
+          </dialog>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero-details">
+          <div class="hero-content container">
+            <h2>Explore Our Premium Services</h2>
+            <p>Detailed information about everything Horizon Motors offers.</p>
+          </div>
+        </section>
+
+        <div class="details container">
+          <section class="services container">
+            <h2>Our Services</h2>
+          </section>
+
+          <section class="sales container">
+            <div class="heading">
+              <h3>Vehicle Sales</h3>
+              <p>
+                At Horizon Motors, our vehicle sales division represents the core of our mission: providing drivers with high-quality vehicles backed by exceptional customer care. Our showroom features a diverse fleet of brand-new models from trusted automotive brands—each selected for its engineering excellence, fuel efficiency, safety advancements, and long-term performance. For customers seeking affordability without compromise, our certified pre-owned collection offers remarkable value. Every pre-owned vehicle undergoes a rigorous multi-point inspection that includes mechanical assessments, safety checks, diagnostics scanning, cosmetic evaluations, and road testing to ensure each model meets our elevated standards.
+              </p>
+
+              <p>
+                Our sales consultants are trained to offer more than simple product knowledge. They act as your personal advisors—learning about your driving habits, family needs, style preferences, and budget to recommend vehicles that match your lifestyle. They walk you through trim levels, engine choices, interior technologies, warranty options, and maintenance expectations so you can make a confident, informed decision. From in-depth test drives to transparent pricing evaluations, we ensure a stress-free, supportive sales experience. When you choose Horizon Motors, you're not just buying a car—you're investing in reliability, honesty, and long-lasting satisfaction.
+              </p>
+            </div>
+          </section>
+
+          <section class="rentals container">
+            <div class="heading">
+              <h3>Vehicle Rentals</h3>
+              <p>
+                The Horizon Motors rental department provides adaptable mobility solutions built around convenience and customer flexibility. Our rental fleet includes fuel-efficient compact cars, mid-size sedans, rugged SUVs, spacious vans, and premium luxury models for customers seeking elevated comfort. Each vehicle in our fleet is routinely maintained through scheduled inspections, fluid checks, tire assessments, professional cleanings, and comprehensive sanitization, guaranteeing a safe and refreshing driving experience every time.
+              </p>
+
+              <p>
+                We offer customizable rental plans for daily, weekly, monthly, and long-term contracts, with options like unlimited mileage, additional driver authorization, premium insurance packages, GPS integration, and infant or toddler seating. Our streamlined reservation process allows customers to book online or in person, with fast pick-up and drop-off procedures designed to save time. Whether you're traveling for business, requiring a temporary replacement vehicle, embarking on a family trip, or attending a special event, Horizon Motors ensures your journey is smooth, dependable, and tailored to your needs.
+              </p>
+            </div>
+          </section>
+
+          <section class="wraps-repairs container">
+            <div class="heading">
+              <h3>Wraps & Repairs</h3>
+              <p>
+                Our Horizon Motors service center is a full-scale maintenance and customization facility equipped with industry-leading diagnostic tools, advanced lift systems, computerized calibration equipment, and OEM-approved parts. We offer a comprehensive range of mechanical services including engine repair, brake system replacement, battery testing, transmission servicing, suspension tuning, fluid flushes, tire balancing, and alignment correction. Our technicians are factory-certified professionals who participate in continuous training to stay current with the latest automotive technologies and repair standards.
+              </p>
+
+              <p>
+                In addition to repairs, we specialize in high-quality vehicle customization. Our vinyl wrap division offers full-body wraps, partial wraps, matte finishes, color-shift designs, commercial branding graphics, and protective paint films that help preserve your vehicle's exterior. For cosmetic restoration, we offer dent removal, sanding, buffing, repainting, trim repair, and interior refurbishing using the finest materials and precision craftsmanship. Whether your goal is to restore your vehicle after an accident, elevate its appearance, or personalize its character, our service center delivers results that enhance performance, protection, and aesthetic appeal.
+              </p>
+            </div>
+          </section>
+
+          <section class="delivery container">
+            <div class="heading">
+              <h3>Delivery Services</h3>
+              <p>
+                Horizon Motors provides a complete transportation and delivery solution for customers nationwide and internationally. When you purchase or rent a vehicle through us, you have the option to schedule secure delivery directly to your home, workplace, or chosen destination. Our transportation partners use enclosed carriers, flatbed trucks, and temperature-regulated cargo systems to ensure every vehicle is delivered safely and protected from weather, debris, and transit damage. Vehicles are carefully secured, monitored, and tracked using GPS and onboard cameras, ensuring full transparency throughout the journey.
+              </p>
+
+              <p>
+                Customers receive detailed delivery notifications, estimated arrival times, and real-time tracking access. Our logistics team coordinates route planning, customs documentation for international shipments, insurance coverage, and secure hand-off procedures to guarantee a smooth, worry-free experience. From across the city to across the globe, Horizon Motors ensures a professional and seamless arrival that reflects the quality of our brand.
+              </p>
+            </div>
+          </section>
+
+          <section class="financing-leasing container">
+            <div class="heading">
+              <h3>Financing & Leasing</h3>
+              <p>
+                Our financing and leasing department is dedicated to helping customers achieve their automotive goals with clarity and confidence. Horizon Motors works with a network of reputable financial institutions to offer competitive rates and flexible terms tailored to different budgets and credit profiles. Whether you're a first-time buyer, a returning customer, or someone looking to upgrade within a specific budget, our specialists provide detailed one-on-one guidance.
+              </p>
+
+              <p>
+                We offer traditional auto loans, low-APR promotional financing, balloon payment plans, refinancing options, and customizable leasing programs with short-term, mid-term, and long-term durations. Our team explains every detail—from interest rates and credit implications to early termination options and warranty coverage—ensuring full transparency. We break down monthly payments, tax considerations, residual values, and total cost-of-ownership analyses so you can make the most informed financial choice. At Horizon Motors, luxury, reliability, and affordability are always within reach.
+              </p>
+            </div>
+          </section>
+
+          <section class="detailing container">
+            <div class="heading">
+              <h3>Vehicle Detailing</h3>
+              <p>
+                Horizon Motors detailing department is dedicated to restoring and preserving your vehicle's beauty, inside and out. We offer a full menu of detailing services including deep interior cleaning, stain extraction, leather conditioning, dashboard restoration, odor treatment, and fabric protection. Our exterior services range from hand washes and clay bar treatments to multi-stage paint correction, ceramic coatings, scratch removal, wheel restoration, and protective sealants that extend the life of your vehicle’s finish.
+              </p>
+
+              <p>
+                Our professional detailers use premium-grade chemicals, microfiber techniques, steam sanitization tools, orbital polishers, and specialized brushes designed to reach every corner and contour of your vehicle. Whether you're preparing for a sale, seeking long-term protection, or simply wanting your car to feel new again, our detailing experts deliver results that elevate both appearance and value. Every vehicle leaves our facility brighter, fresher, and protected with superior craftsmanship and care.
+              </p>
+            </div>
+          </section>
+        </div>
+
+        <div class="flex-container">
+          <section class="achievements container">
+            <h2>Our Achievements</h2>
+
+            <ul>
+              <li>Reduced average vehicle acquisition and delivery time to under 7 days through optimized logistics.</li>
+              <li>Facilitated over $500 Million in successful vehicle financing and leasing agreements.</li>
+              <li> Completed 30,000+ successful repairs & custom modifications</li>
+              <li> Rated 4.89/5 in customer satisfaction across all platforms</li>
+              <li> Awarded “Top Luxury Dealership of 2024” in Manitoba</li>
+              <li> Delivered vehicles to 18+ countries globally</li>
+              <li> Over 150,000 satisfied customers worldwide</li>
+            </ul>
+          </section>
+
+          <section class="industry-updates container">
+            <h2>Automobile Industry Updates</h2>
+
+            <ul>
+              <li>Advanced vehicle diagnostics and complex ADAS components are driving up the complexity and cost of vehicle repair.</li>
+              <li>The market for wraps, PPF (Paint Protection Film), and vehicle personalization is experiencing major growth.</li>
+              <li>Electric vehicle (EV) growth is increasing as brands invest heavily in hybrid and zero-emission technology.</li>
+              <li>Leasing is gaining traction as high prices and interest rates push buyers toward lower monthly payments.</li>
+              <li>AI-powered driver-assist systems are becoming standard across luxury and mid-range models.</li>
+              <li>Online dealerships and subscription-based car models are shaping modern auto retail.</li>
+              <li>The demand for SUVs and crossovers continues to rise in North America.</li>
+            </ul>
+          </section>
+        </div>
+      </main>
+
+      <footer>
+        <p id="copyright">&copy; 2025 Horizon</p>
+      </footer>
+
+      <button id="scrollToTopBtn" >
+        ↑ Top
+      </button>
     </body>
 </html>
