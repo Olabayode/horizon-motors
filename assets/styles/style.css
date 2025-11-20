@@ -734,3 +734,10 @@ footer {
     inset: 0;
     background: rgba(0,0,0,0.40);
 }
+
+.services h2 {
+  font-size: 30px;
+  margin-bottom: 150px;
+  font-weight: 600;
+}
+
