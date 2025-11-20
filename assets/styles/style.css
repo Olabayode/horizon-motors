@@ -662,7 +662,7 @@ form .submit:hover{
 /*CTA*/
 #scrollToTopBtn {
   position: fixed;       
-  bottom: 120px;         
+  bottom: 140px;         
   right: 20px;           
   padding: 12px 18px;    
   font-size: 18px;  
@@ -795,12 +795,29 @@ footer {
   font-weight: 600;
 }
 
+section h3 {
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #D8D5DB;
+    padding: 10px 40px;
+    width: 40%;
+}
+
+.heading {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
 .sales {
-  padding: 90px 20px;
-  background: url('../media/vehicle-sales.png') center/cover no-repeat;
+  padding: 50px 20px;
+  background: #d1c3d1;
   border-radius: 20px;
   box-shadow: 2px 2px 2px #3d3d3d;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .sales h3 {
@@ -810,11 +827,11 @@ footer {
 }
 
 .rentals {
-  padding: 90px 20px;
+  padding: 50px 20px;
   border-radius: 20px;
   box-shadow: 2px 2px 2px #3d3d3d;
-  background: url('../media/rentals.png') center/cover no-repeat;
-  margin-top: 40px;
+  background: #EAE8FF;
+  margin-top: 20px;
 }
 
 .rentals h3 {
@@ -824,11 +841,11 @@ footer {
 }
 
 .wraps-repairs {
-  padding: 100px 20px;
-  background: url('../media/wraps-repairs.png') center/cover no-repeat;
+  padding: 50px 20px;
+  background: #d1c3d1;
   border-radius: 20px;
   box-shadow: 2px 2px 2px #3d3d3d;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .wraps-repairs h3 {
@@ -838,11 +855,11 @@ footer {
 }
 
 .delivery {
-  padding: 90px 20px;
+  padding: 50px 20px;
   border-radius: 20px;
   box-shadow: 2px 2px 2px #3d3d3d;
-  background: url('../media/delivery-services.png') center/cover no-repeat;
-  margin-top: 40px;
+  background: #EAE8FF;
+  margin-top: 20px;
 }
 
 .delivery h3 {
@@ -852,11 +869,11 @@ footer {
 }
 
 .financing-leasing {
-  padding: 90px 20px;
+  padding: 50px 20px;
   border-radius: 20px;
   box-shadow: 2px 2px 2px #3d3d3d;
   margin-top: 40px;
-  background: url('../media/finance-lease.png') center/cover no-repeat;
+  background: #d1c3d1;
 }
 
 .financing-leasing h3 {
@@ -866,10 +883,10 @@ footer {
 }
 
 .detailing {
-  padding: 90px 20px;
+  padding: 50px 20px;
   border-radius: 20px;
   box-shadow: 2px 2px 2px #3d3d3d;
-  background: url('../media/detailing-service.png') center/cover no-repeat;
+  background: #EAE8FF;
   margin-top: 40px;
 }
 
