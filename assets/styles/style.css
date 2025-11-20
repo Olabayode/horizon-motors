@@ -19,16 +19,20 @@ header {
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: #ffffff;
+    background-color: transparent;
     z-index: 100;
-    border-bottom: 1px solid #e4e4e4;
+    transition: all 0.5s ease-in-out;
+}
+
+header .scrolled{
+    background-color: #fff;
 }
 
 header.container {
     max-width: 100%;
     width: 100%;
     margin: 0;
-     padding: 10px 40px;
+    padding: 10px 40px;
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -41,7 +45,7 @@ header.scrolled {
 }
 
 header h1 {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 700;
     letter-spacing: 3px;
     margin: 0;
@@ -54,16 +58,19 @@ nav {
 
 nav a {
     text-decoration: none;
-    font-size: 15px;
-    color: #333;
+    font-size: 18px;
+    color: #1e1616;
     font-weight: 600;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 8px;
 }
 
 nav a:hover {
     color: #2D3142;
+    flex-grow: 1.1;
 }
-
-
 
 .hero {
     position: relative;
