@@ -760,7 +760,7 @@ footer {
 }
 
 .sales h3 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   text-align: center;
 }
@@ -774,7 +774,7 @@ footer {
 }
 
 .rentals h3 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   text-align: center;
 }
@@ -788,7 +788,7 @@ footer {
 }
 
 .wraps-repairs h3 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   text-align: center;
 }
@@ -802,7 +802,7 @@ footer {
 }
 
 .delivery h3 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   text-align: center;
 }
@@ -816,27 +816,28 @@ footer {
 }
 
 .financing-leasing h3 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   text-align: center;
 }
 
 .detailing.container {
-  padding: 30px 20px;
+  padding: 90px 20px;
   border-radius: 20px;
   box-shadow: 2px 2px 2px #3d3d3d;
-  background-color: #fff;
+  background: url('../media/detailing-service.png') center/cover no-repeat;
   margin-top: 40px;
 }
 
 .detailing h3 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   text-align: center;
 }
 
 .details p {
   padding-top: 20px;
+  font-weight: bold;
 }
 
 .achievements {
