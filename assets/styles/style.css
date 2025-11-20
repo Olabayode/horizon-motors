@@ -840,6 +840,18 @@ footer {
   font-weight: bold;
 }
 
+.industry-updates.container {
+  margin-top: 40px;
+}
+
+.industry-updates ul {
+  list-style: none;
+}
+
+.industry-updates ul li {
+  margin-top: 5px;
+}
+
 .achievements {
   margin-top: 80px;
   text-align: center;
@@ -850,17 +862,5 @@ footer {
 }
 
 .achievements ul li {
-  margin-top: 5px;
-}
-
-.industry-updates.container {
-  margin-top: 40px;
-}
-
-.industry-updates ul {
-  list-style: none;
-}
-
-.industry-updates ul li {
   margin-top: 5px;
 }
