@@ -741,6 +741,11 @@ footer {
   padding-bottom: 50px;
 }
 
+.details p {
+  padding-top: 20px;
+  font-weight: bold;
+}
+
 .services {
   padding: 20px 0;
   margin-top: 40px;
@@ -835,19 +840,21 @@ footer {
   text-align: center;
 }
 
-.details p {
-  padding-top: 20px;
-  font-weight: bold;
+.flex-container {
+  display: flex;
+  justify-content: flex;
+  place-content: center;
 }
 
 .achievements {
-  margin-top: 80px;
+  margin-top: 60px;
   padding: 40px;
   text-align: center;
   background-color: #B0D7FF;
   border-radius: 15px;
   box-shadow: 2px 2px 2px #3d3d3d;
   width: 600px;
+  margin-bottom: 80px;
 }
 
 .achievements h2 {
@@ -867,7 +874,7 @@ footer {
   padding: 40px;
   text-align: center;
   margin-bottom: 80px;
-  background-color: #D8D5DB;
+  background-color: #B0D7FF;
   border-radius: 15px;
   box-shadow: 2px 2px 2px #3d3d3d;
   width: 600px;
