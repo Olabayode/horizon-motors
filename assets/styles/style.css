@@ -735,11 +735,14 @@ footer {
     background: rgba(0,0,0,0.40);
 }
 
+.details.container {
+  background-color: #D8D5DB;
+  width: 100%;
+}
+
 .services.container {
   padding: 20px 0;
   padding-bottom: 55px;
-  background-color: #D8D5DB;
-  width: 100%;
   margin-top: 40px;
 }
 
