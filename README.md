@@ -30,4 +30,6 @@ This project includes:
 - Hosted using GitHub Pages  
 ---
 
-Visit our website using this [[(https://olabayode.github.io/horizon-motors/)]()].
+Visit Our website https://olabayode.github.io/horizon-motors/
+
+Visit our website using this [[link]()].
