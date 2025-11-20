@@ -737,7 +737,13 @@ footer {
 
 .services h2 {
   font-size: 30px;
-  margin-bottom: 150px;
+  padding: 50px 0;
   font-weight: 600;
+  background-color: #EAE8FF;
+  width: 100%;
 }
 
+.sales {
+  padding: 20px 0;
+  background-color: #2D3142;
+}
