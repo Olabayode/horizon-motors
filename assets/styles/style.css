@@ -178,7 +178,7 @@ border: 1px solid rgb(0 0 0 / 0.15);
 
 .hero {
     position: relative;
-    background: url('/assets/media/hero.png') center/cover no-repeat;
+    background: url('../media/hero.png') center/cover no-repeat;
     height: 100vh;
     display: flex;
      margin-top: -80px;      
