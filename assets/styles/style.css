@@ -842,7 +842,12 @@ footer {
 
 .achievements {
   margin-top: 80px;
+  padding: 40px;
   text-align: center;
+  background-color: #B0D7FF;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px #3d3d3d;
+  width: 600px;
 }
 
 .achievements h2 {
@@ -850,17 +855,22 @@ footer {
 }
 
 .achievements ul {
-  list-style: none;
+  text-align: left;
 }
 
 .achievements ul li {
-  margin-top: 5px;
+  margin-top: 20px;
 }
 
 .industry-updates {
   margin-top: 60px;
+  padding: 40px;
   text-align: center;
   margin-bottom: 80px;
+  background-color: #D8D5DB;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px #3d3d3d;
+  width: 600px;
 }
 
 .industry-updates h2 {
@@ -868,9 +878,9 @@ footer {
 }
 
 .industry-updates ul {
-  list-style: none;
+  text-align: left;
 }
 
 .industry-updates ul li {
-  margin-top: 5px;
+  margin-top: 20px;
 }
