@@ -845,6 +845,10 @@ footer {
   text-align: center;
 }
 
+.achievements h2 {
+  margin-bottom: 20px;
+}
+
 .achievements ul {
   list-style: none;
 }
@@ -853,10 +857,14 @@ footer {
   margin-top: 5px;
 }
 
-.industry-updates.container {
-  margin-top: 50px;
+.industry-updates {
+  margin-top: 60px;
   text-align: center;
   margin-bottom: 80px;
+}
+
+.industry-updates h2 {
+  margin-bottom: 20px;
 }
 
 .industry-updates ul {
