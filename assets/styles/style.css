@@ -753,3 +753,28 @@ footer {
 .sales h3 {
   font-size: 20px;
 }
+
+.rentals {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.wraps-repairs {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.delivery {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.financing-leasing {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.detailing {
+  text-align: center;
+  padding: 20px 0;
+}
