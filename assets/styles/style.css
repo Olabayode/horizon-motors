@@ -51,13 +51,19 @@ header h1 {
     margin: 0;
 }
 
-nav {
-    display: flex;
-    gap: 28px;
+h1 a{
+    text-decoration: none;
+    color: #141B41;
 }
 
-nav a {
-    text-decoration: none;
+nav ul {
+    display: flex;
+    cursor: pointer;
+    gap: 17px;
+}
+
+nav li {
+    list-style: none;
     font-size: 18px;
     color: #1e1616;
     font-weight: 600;
@@ -67,10 +73,108 @@ nav a {
     padding: 8px;
 }
 
-nav a:hover {
-    color: #2D3142;
-    flex-grow: 1.1;
+li a {
+    text-decoration: none;
+    color: #1e1616;
 }
+
+
+li a:hover {
+    color: #3553db;
+}
+
+.open{
+    background-color: #000;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.open:hover{
+    color: #3385ff;
+    background-color: #fff;
+}
+
+/* modal */
+.modal {
+  padding: 25px;
+  max-width: 600px;
+  border: 0;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.modal::backdrop {
+  background: rgb(0 0 0 / 0.4);
+}
+
+
+.button-dialog {
+  border: 0;
+  cursor: pointer;
+  font-weight: 700; 
+  display: block;
+  margin-bottom: 20px;
+  height: 40px;
+  background-color: #3385ff;
+  border-radius: 0.35rem;
+  color: #fff;
+}
+
+.button-dialog:hover {
+  background-color: #4d95ff;
+}
+
+.modal form {
+  display: grid;
+  gap: 1em;
+}
+
+.modal h2{
+  margin-top: 6px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.modal label {
+  width: 300px;
+  background-color: #f8f7f7;
+}
+
+.modal input {
+  padding-left: 5px;
+  font-size: 18px;
+  line-height: 20px;
+  line-height: 40px;
+  background-color: #f8f7f7;
+}
+
+.modal label i {
+  font-size: 15px;
+  padding-left: 5px;
+  color: #282d31;
+}
+
+input {
+height: 46px;
+padding: 0 15px;
+border-radius: 5px;
+font-size: 15px;
+transition: all 0.25s ease-in-out;
+width: 100%;
+background-size: 16px;
+border: 1px solid rgb(0 0 0 / 0.15);
+}
+
+.new-link{
+    color: #3385ff;
+}
+
 
 .hero {
     position: relative;
@@ -154,9 +258,9 @@ nav a:hover {
 
 
 
-.about, .discover, .services, .contact, .socials{
-    margin-top: 50px;
-}
+/* .about, .discover, .services, .contact, .socials{
+    margin-bottom: 20px;
+} */
 
 .about{
     background-color: #EAE8FF;
@@ -167,6 +271,7 @@ nav a:hover {
     text-align: center;
     margin-bottom: 24px;
     font-size: 26px;
+    padding-top: 40px;
 }
 
 .about-details {
@@ -189,6 +294,7 @@ nav a:hover {
 .discover h2 {
     font-size: 26px;
     margin-bottom: 8px;
+    padding-top: 60px;
 }
 
 .discover h3 {
@@ -235,27 +341,31 @@ nav a:hover {
 .discover-card .model-info {
     padding: 10px 18px 22px;
     font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     line-height: 1.6;
 }
 
 .discover-card .model-info a {
+    border: 1px solid #666;
+    border-radius: 10px;
+    width: 30%;
+    padding: 4px;
     font-size: 14px;
     font-weight: 600;
     color: #2D3142;
     text-decoration: none;
-    transition: color 0.3s ease, text-decoration-color 0.3s ease;
+    transition: all 0.3s ease-in-out
 }
 
 .discover-card .model-info a:hover {
-    color: #000;
-    text-decoration: underline;
-    text-decoration-color: #000;
+    color: #fff;
+    background-color: #000;
 }
 
 
-.discover-card .model-info a:hover {
-    text-decoration: underline;
-}
 
 .discover-card:hover {
     transform: translateY(-6px);
@@ -271,6 +381,7 @@ nav a:hover {
 .services h2 {
     font-size: 26px;
     margin-bottom: 10px;
+    padding-top: 60px;
 }
 
 .services > p {
@@ -329,6 +440,7 @@ nav a:hover {
     text-align: center;
     margin-bottom: 26px;
     font-size: 26px;
+    padding-top: 40px;
 }
 
 .offers-grid {
@@ -429,6 +541,7 @@ nav a:hover {
     text-align: center;
     margin-bottom: 26px;
     font-size: 26px;
+    padding-top: 60px;
 }
 
 .contact-box {
@@ -507,6 +620,39 @@ nav a:hover {
     transform: scale(1.1);
 }
 
+/*CTA*/
+#scrollToTopBtn {
+  position: fixed;       
+  bottom: 120px;         
+  right: 20px;           
+  padding: 12px 18px;    
+  font-size: 18px;  
+  font-weight: 700;    
+  background-color: #141B41; 
+  color: white;          
+  border: none;          
+  border-radius: 40px;  
+  cursor: pointer;       
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  opacity: 0;            
+  pointer-events: none;  
+  transition: opacity 0.3s ease; 
+  z-index: 1000;      
+  transition: all 0.3s ease-in-out;   
+}
+
+#scrollToTopBtn.show {
+  opacity: 1;            
+  pointer-events: auto;  
+}
+
+#scrollToTopBtn:hover {
+  background-color: #B0D7FF; 
+  color: #000;
+  font-size: 20px;
+}
+
+
 
 
 footer {
@@ -530,9 +676,9 @@ footer {
         gap: 8px;
     }
 
-    nav {
+    nav ul{
         flex-wrap: wrap;
-        gap: 16px;
+        gap: 8px;
     }
 
     .discover-grid,

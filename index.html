@@ -13,28 +13,44 @@
     </head>
     <body>
         <header class="container">
-            <h1>HORIZON MOTORS</h1>
+            <h1><a href="#">HORIZON MOTORS</a></h1>
 
             <nav>
-                <a  href="">About Us</a>
-                <a  href="">Offers</a>
-                <a  href="">Services</a>
-                <a  href="">Contact Us</a>
-                <a  href="">Login</a>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#discover">Discover</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#offers">Offers</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li class="open">Login</li>
+                </ul>
+                <dialog class="modal" id="modal">
+                    <h2>Sign in</h2>
+                    <form class="form" method="dialog">
+                        <label>
+                            <input type="text" placeholder="Email"></label>
+                        <label>
+                        <input type="text" placeholder="Password"></label>
+                        <button class="button-dialog" type="submit">Login</button>
+                        <p class="new-account">New to Horizon? <a href="#">
+                            <span class="new-link">Create Account</span></a>
+                        </p>
+                    </form>
+                </dialog>
             </nav>
         </header>
         <main>
-            <section class="hero ">
+            <section class="hero">
                 <div class="hero-content container">
                     <h2>Welcome to The Leading Brand for Car Dealership and Services</h2>
                     <h2>Targeting comfort in all our services is of utmost importance</h2>
                     <p>Bringing New Luxury Models to your door step</p>
                     <p>Taking Your Old Models and making them feel brand new</p>
                     <p>With top notch modifications</p>
-                    <a href="./page/detail.html" class="btn">Explore Servcies</a>
+                    <a href="./page/detail.html" class="btn">Explore Services</a>
                 </div>
             </section>
-            <section class="about">
+            <section class="about" id="about">
                 <h2>About Horizon Motors</h2>
                 <div class="about-details">
                     <p>Welcome to Horizon Automobile Collection, where your automotive dreams are not just met, but crafted. We are more than just a dealership; we are a comprehensive automotive partner, dedicated to providing an unparalleled experience from the moment you envision your perfect vehicle.
@@ -51,7 +67,7 @@
                     </p>
                 </div>
             </section>
-            <section class="discover container">
+            <section class="discover container" id="discover">
                 <h2>--Discover Your Horizon--</h2>
                 <h3> Our Car Models</h3>
                 <h4>Horizon build each engine just like we handle our customers, with integrity and expertise </h4>
@@ -64,7 +80,7 @@
                         </div>
                         <div class="model-info">
                             <p>The design features a sculpted body with sleek lines, an assertive grille, and sharp, contemporary headlamps that give it a distinctive look. It sits on multi-spoke alloy wheels, adding a touch of elegance and sportiness.</p>
-                            <a href="">More</a>
+                            <a href="">More...</a>
                         </div>
                     </div>
                     <div class="discover-card">
@@ -75,7 +91,7 @@
                         </div>
                         <div class="model-info">
                             <p>This model, showcased in striking Azure Blue, features a distinct, coupe-like body shape that emphasizes aerodynamics and modern performance.Its design departs from traditional sedans, offering a sportier profile with a sloping roofline and muscular wheel arches.</p>
-                            <a href="">More</a>
+                            <a href="">More...</a>
                         </div>
                     </div>
                     <div class="discover-card">
@@ -86,7 +102,7 @@
                         </div>
                         <div class="model-info">
                             <p>This light blue Terracon Jeep is built for adventure. Its rugged design, bold stance, and powerful off-road features immediately signal a spirit of exploration and conquering any terrain. It's not just a vehicle, it exhumes freedom</p>
-                            <a href="">More</a>
+                            <a href="">More...</a>
                         </div>
                     </div>
                     <div class="discover-card">
@@ -97,7 +113,7 @@
                         </div>
                         <div class="model-info">
                             <p>This grey Horizon pickup is pure power and utility. Its rugged, chiseled form and commanding presence declare heavy-duty capability and unflinching resilience. Built to handle the toughest jobs, it's the definitive workhorse in the collection.</p>
-                            <a href="">More</a>
+                            <a href="">More...</a>
                         </div>
                     </div>
                     <div class="discover-card">
@@ -108,7 +124,7 @@
                         </div>
                         <div class="model-info">
                             <p>This crisp white Horizon two-door car embodies dynamic elegance and precision. Its sleek, low-slung profile and clean lines create a sense of focused speed and agility. It is the ultimate expression of minimalist performance and modern style.</p>
-                            <a href="">More</a>
+                            <a href="">More...</a>
                         </div>
                     </div>
                     <div class="discover-card">
@@ -119,12 +135,12 @@
                         </div>
                         <div class="model-info">
                             <p>The Horizon convertible captures the essence of open-air exhilaration. Its rich, understated color and flowing lines suggest effortless speed and glamorous cruising. It is the definition of driving passion, unconstrained.</p>
-                            <a href="">More</a>
+                            <a href="">More...</a>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="services container">
+            <section class="services container" id="services">
                 <h2>Our Services</h2>
                 <p>We provide a full range of automotive services to meet all your needs.</p>
                 <div class="services-grid">
@@ -160,7 +176,7 @@
                     </div>
                 </div>
             </section>
-            <section class="offers container">
+            <section class="offers container" id="offers">
                 <h2>Special Offers and Discounts</h2>
                 <div class="offers-grid">
                     <div class="offer-card">
@@ -203,7 +219,7 @@
                     </div>
                 </div>
             </section>
-            <section class="contact container">
+            <section class="contact container" id="contact">
                 <h2>Contact & Location</h2>
                 <div class="contact-box">
                     <div class="contact-info">
@@ -241,5 +257,8 @@
         <footer>
             <p id="copyright">&copy; 2025 Horizon</p>
         </footer>
+        <button id="scrollToTopBtn" >
+            ↑ Top
+        </button>
     </body>
 </html>
