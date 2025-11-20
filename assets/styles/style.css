@@ -557,6 +557,44 @@ border: 1px solid rgb(0 0 0 / 0.15);
     font-size: 16px;
 }
 
+.contact-info form{
+    border: 1px solid #666;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+form p{
+    color: #ff0000;
+    font-size: 12px;
+}
+
+form input{
+    margin-bottom: 10px;
+}
+
+form textarea {
+width: 100%;
+height: 200px;
+padding: 15px 0px 0px 15px;
+border-radius: 5px;
+border: 1px solid #666;
+margin: 10px 0px 10px;
+resize: none;
+transition: 0.25s ease-in-out;
+}
+
+form .submit{
+    background-color: #4d95ff;
+    font-size: 15px;
+    font-weight: 650;
+}
+
+form .submit:hover{
+    background-color: #666;
+    color: #4d95ff;
+
+}
+
 .contact-info img {
     width: 100%;
     height: 230px;
@@ -593,6 +631,7 @@ border: 1px solid rgb(0 0 0 / 0.15);
 
 .socials {
     text-align: center;
+    margin: 40px 0;
 }
 
 .socials h2 {
