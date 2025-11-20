@@ -752,7 +752,6 @@ footer {
 }
 
 .sales.container {
-  text-align: center;
   padding: 30px 20px;
   background-color: #B0D7FF;
   border-radius: 20px;
@@ -763,10 +762,10 @@ footer {
 .sales h3 {
   font-size: 20px;
   font-weight: 600;
+  text-align: center;
 }
 
 .rentals.container {
-  text-align: center;
   padding: 30px 20px;
   border-radius: 20px;
   box-shadow: 2px 2px 2px #3d3d3d;
@@ -777,10 +776,10 @@ footer {
 .rentals h3 {
   font-size: 20px;
   font-weight: 600;
+  text-align: center;
 }
 
 .wraps-repairs {
-  text-align: center;
   padding: 30px 20px;
   background-color: #B0D7FF;
   border-radius: 20px;
@@ -791,10 +790,10 @@ footer {
 .wraps-repairs h3 {
   font-size: 20px;
   font-weight: 600;
+  text-align: center;
 }
 
 .delivery.container {
-  text-align: center;
   padding: 30px 20px;
   border-radius: 20px;
   box-shadow: 2px 2px 2px #3d3d3d;
@@ -805,10 +804,10 @@ footer {
 .delivery h3 {
   font-size: 20px;
   font-weight: 600;
+  text-align: center;
 }
 
 .financing-leasing.container {
-  text-align: center;
   padding: 30px 20px;
   background-color: #B0D7FF;
   border-radius: 20px;
@@ -819,10 +818,10 @@ footer {
 .financing-leasing h3 {
   font-size: 20px;
   font-weight: 600;
+  text-align: center;
 }
 
 .detailing.container {
-  text-align: center;
   padding: 30px 20px;
   border-radius: 20px;
   box-shadow: 2px 2px 2px #3d3d3d;
@@ -833,6 +832,11 @@ footer {
 .detailing h3 {
   font-size: 20px;
   font-weight: 600;
+  text-align: center;
+}
+
+.details p {
+  padding-top: 20px;
 }
 
 .achievements.container {
