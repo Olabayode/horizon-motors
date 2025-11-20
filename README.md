@@ -32,4 +32,4 @@ This project includes:
 
 Visit Our website https://olabayode.github.io/horizon-motors/
 
-Visit our website using this [[link]()].
+Visit our repository using this [[link]()].
