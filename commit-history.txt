@@ -1,0 +1,119 @@
+5a77c61 minor change
+cf3c7cc Merge pull request #3 from Olabayode/selectors-pelumi
+4d37634 details edit
+6a8ac2f Modified README.md
+7913ab1 Added a Features section in README file
+9de477a Created a link leading to our website on README.md
+5baae6c Modified README.md
+00dd847 Modified README.md
+70c7b62 Merge pull request #2 from Olabayode/carlos-html
+b2fcb03 contact image
+bd8344a contact form
+724bfb9 contact form
+295842e Modified flex-container
+01e2f7a Added a div with class flex-container for achievements and industry sections
+c4b5da5 Modified styles.css
+a8c61d4 Modified achievements/industry sections in css file
+b476bae Added achievements
+cecadb3 Modified industry/achievements section
+7065e7c Modified industry and achievements
+966a6d3 Modified detail.html
+c9ab716 Modified detail.html
+f2ff406 Modified detail.html
+18470c8 Modified header
+2932905 Modified industry updates section
+621ac32 Changed order of arrangement
+21ad7d1 Changed order of arrangement
+6d6d033 Changed all p element text to bold for details page, and changed background for detailing section
+514f98b Changed background for finance/lease section
+a7ad324 Changed background for rentals section
+6a15842 Changed background for vehicle sales section
+b1deb44 Added images and changed backgrounds for delivery section and wraps&repairs section
+9055b12 Modified industry updates section
+281de8e Modified the achievements section
+84b45e1 Modified achievements section
+ef3e344 Edited some text in detail.html
+3716db3 Went into more detail with our services
+4aa5e2e Modified text placement
+59dee1f Added more info on services we offer
+acdaea1 Modified containers and their backgrounds
+a83769b Modified detail.html
+35c9006 Placed all detail classes inside of details container
+aa505b8 Modified detail.html
+1dbadd0 Modified detail.html
+c3a42ca Edited services container
+1852475 Modified styles.css
+3512f32 Modified detail containers
+cda8491 Modified styles.css and detail.html
+ec3aeb4 Modified styles.css
+d06f61a Modified styles.css
+7a85579 edited services h2 in styles.css
+c2b34af fixed more indentation
+42a720a Fixed more indentation and added classes for services
+0729802 fixed indentation
+55f59a1 Merge pull request #1 from Olabayode/daljit-css
+1a317f6  message
+b403924 Merge remote-tracking branch 'origin/daljit-css' into selectors-pelumi both branches can merge and there'll be no conflict, i created the java script pages and also added new scroller features
+a822388 Merge resolved
+918e690 login modal
+02e92e9 header scroller
+7f0e903 css
+5fd5ae2 footer
+8492d79 css detail
+69979ff detail page
+f6c9ec9 changes
+35d0ae2 repairs
+9cff215 rental
+250be78 alot of changes in detail
+cf530a6 some updates for new section
+0286a84 modifications
+6b48852 rental cars
+013c8f1 car selections
+64a3203 services
+8df9f06 link pages
+89747ea updated css
+b13ddd8 style edit
+68de7df updated logos
+19baabf fixed responsivness
+2abd87e services updated
+c2731bd fix header and contact
+afb3e76 fixed
+49220ba icons
+804cdc2 reviews
+5334197 update
+44420ff changes
+2d1f100 grid
+41f25b8 changes
+9b067bc our services
+30c208f changes
+19d527b  about
+650f560 header
+e5843c9 updated header
+6e26245 updated
+242b7ba header
+efd9be2  navigation
+8bd280e header
+842eefe css
+f6a6926 socials
+2915ad6 contact and socials html
+d12bae1 services html
+56bc240 about html
+70201bd models html
+e5c473b Edited some text in detail.html
+13c1b6e Added a Repairs & Modifications div with a brief description of the service we provide
+5d69716 Added a Rental Cars div with a brief description of the service we provide
+746d929 Added a Car Selection div in detail.html
+7e7e59e Removed brief description in Our Services Section
+40b66de Added some details in the About Us section in details.html
+986e626 Modified detail.html
+d24c630 Added some structure to details.html/added a hero-details class in styles.css and added an image for the details page hero banner
+c924e28 Merged pelumi's changes to mine
+ef3db0d needed commit before pulling pelumi's changes
+fc02168 landing page
+8e6959a added more text in index.html
+ffeed84 Added text to <h1> and <li> elements
+ae33824 Created base for header
+956b224 Initial commit - carlos-html
+70b64a2 branches were diverged
+094c378 first commit
+688d516 Initial commit
