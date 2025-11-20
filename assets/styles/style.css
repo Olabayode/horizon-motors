@@ -715,3 +715,22 @@ footer {
         font-size: 24px;
     }
 }
+
+
+
+/*--- detail page---- */
+.hero-details {
+    position: relative;
+    background: url('../media/details-hero.png') center/cover no-repeat;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-details::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.40);
+}
