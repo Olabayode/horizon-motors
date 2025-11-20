@@ -28,5 +28,6 @@ This project includes:
 - Git collaboration workflow  
 - Written using pure **HTML**, **CSS**, and **JavaScript**  
 - Hosted using GitHub Pages  
+---
 
 Visit our website using this [link]().
