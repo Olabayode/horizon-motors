@@ -735,13 +735,13 @@ footer {
     background: rgba(0,0,0,0.40);
 }
 
-.details.container {
+.details {
   background-color: #EAE8FF;
   width: 100%;
   padding-bottom: 50px;
 }
 
-.services.container {
+.services {
   padding: 20px 0;
   margin-top: 40px;
 }
@@ -751,7 +751,7 @@ footer {
   font-weight: 600;
 }
 
-.sales.container {
+.sales {
   padding: 90px 20px;
   background: url('../media/vehicle-sales.png') center/cover no-repeat;
   border-radius: 20px;
@@ -765,7 +765,7 @@ footer {
   text-align: center;
 }
 
-.rentals.container {
+.rentals {
   padding: 90px 20px;
   border-radius: 20px;
   box-shadow: 2px 2px 2px #3d3d3d;
@@ -793,7 +793,7 @@ footer {
   text-align: center;
 }
 
-.delivery.container {
+.delivery {
   padding: 90px 20px;
   border-radius: 20px;
   box-shadow: 2px 2px 2px #3d3d3d;
@@ -807,7 +807,7 @@ footer {
   text-align: center;
 }
 
-.financing-leasing.container {
+.financing-leasing {
   padding: 90px 20px;
   border-radius: 20px;
   box-shadow: 2px 2px 2px #3d3d3d;
@@ -821,7 +821,7 @@ footer {
   text-align: center;
 }
 
-.detailing.container {
+.detailing {
   padding: 90px 20px;
   border-radius: 20px;
   box-shadow: 2px 2px 2px #3d3d3d;
