@@ -735,9 +735,11 @@ footer {
     background: rgba(0,0,0,0.40);
 }
 
-.services {
+.services.container {
   padding: 20px 0;
-  margin-bottom: 40px;
+  padding-bottom: 55px;
+  background-color: #D8D5DB;
+  width: 100%;
 }
 
 .services h2 {
@@ -745,36 +747,60 @@ footer {
   font-weight: 600;
 }
 
-.sales {
+.sales.container {
   text-align: center;
-  padding: 20px 0;
+  padding: 30px 20px;
+  background-color: #B0D7FF;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px #3d3d3d;
+  margin-top: 40px;
 }
 
 .sales h3 {
   font-size: 20px;
 }
 
-.rentals {
+.rentals.container {
   text-align: center;
-  padding: 20px 0;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px #3d3d3d;
+  background-color: #EAE8FF;
+  margin-top: 40px;
 }
 
 .wraps-repairs {
   text-align: center;
-  padding: 20px 0;
+  padding: 30px 20px;
+  background-color: #B0D7FF;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px #3d3d3d;
+  margin-top: 40px;
 }
 
-.delivery {
+.delivery.container {
   text-align: center;
-  padding: 20px 0;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px #3d3d3d;
+  background-color: #EAE8FF;
+  margin-top: 40px;
 }
 
-.financing-leasing {
+.financing-leasing.container {
   text-align: center;
-  padding: 20px 0;
+  padding: 30px 20px;
+  background-color: #B0D7FF;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px #3d3d3d;
+  margin-top: 40px;
 }
 
-.detailing {
+.detailing.container {
   text-align: center;
-  padding: 20px 0;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px #3d3d3d;
+  background-color: #EAE8FF;
+  margin-top: 40px;
 }
