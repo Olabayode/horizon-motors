@@ -795,7 +795,7 @@ footer {
   font-weight: 600;
 }
 
-section h3 {
+.heading h3 {
     border: 1px solid #000;
     border-radius: 10px;
     background-color: #D8D5DB;
